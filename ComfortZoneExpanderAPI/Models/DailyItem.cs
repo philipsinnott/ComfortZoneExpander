@@ -10,5 +10,6 @@ namespace ComfortZoneExpanderAPI.Models
         public string Type { get; set; }
         public string Content { get; set; }
         public DateTime DateCreated { get; set; } = DateTime.Now;
+        public int Rating { get; set; }
     }
 }
